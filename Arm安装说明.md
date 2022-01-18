@@ -12,23 +12,23 @@
 1拉源码
 国内
 ```
-git clone https://ghproxy.com/https://github.com/moyuwuhen601/nvjdcdocker.git /root/nolanjdc
+git clone https://ghproxy.com/https://github.com/shufflewzc/nvjdcdocker.git /root/nolanjdc
 ```
 国外
 ```
-git clone https://github.com/moyuwuhen601/nvjdcdocker.git /root/nolanjdc
+git clone https://github.com/shufflewzc/nvjdcdocker.git /root/nolanjdc
 ```
 
 
 2 拉取基础镜像
 ```
-sudo docker pull nolanhzy/nvjdccaptcha:arm   
+sudo docker pull shufflewzc/nvjdccaptcha:arm   
 ```
 
 3 执行启动基础镜像
 
 ```
-sudo docker run   --name nvjdccaptcha -p 5703:5000  --restart=always  -d   -it --privileged=true  nolanhzy/nvjdccaptcha:arm   
+sudo docker run   --name nvjdccaptcha -p 5703:5000  --restart=always  -d   -it --privileged=true  shufflewzc/nvjdccaptcha:arm   
 ```
 
 4 执行命令安装浏览器
